@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x,y,i,n;
+	// your code goes here
+	cin>>n;
+	for(i=1;i<=n;i++)
+	{
+	cin>>x;
+	cin>>y;
+	if(x==y)
+	{
+	    cout<<"Any" <<"\n";
+	}
+	else if(x<y)
+	{
+	    cout<<"FIRST" <<"\n";
+	}
+	else
+	cout<<"SECOND"<<"\n";
+	}
+	return 0;
+}

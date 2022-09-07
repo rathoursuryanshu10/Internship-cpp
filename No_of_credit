@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+    int i,n,x,y,z,a,b,c,d;
+      cin>>n;
+      for(i=0;i<n;i++)
+      {
+          cin>>x;
+          cin>>y;
+          cin>>z;
+          a=x*4;
+          b=y*2;
+          z=0*z;
+          d=a+b+c;
+          cout<<d <<"\n";
+      }
+	return 0;
+}

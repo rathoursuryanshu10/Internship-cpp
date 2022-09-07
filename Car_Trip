@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,i,km,r,mc=10;
+	cin>>n;
+	for(i=0;i<n;i++)
+	{
+	    cin>>km;
+	    if(km>=300)
+	    {
+	        r=mc*km;
+	        cout<<r <<"\n";
+	    }
+	    else
+	    {
+	         r=300*mc;
+	        cout<<r <<"\n";
+	    }
+	   
+	}
+	return 0;
+}

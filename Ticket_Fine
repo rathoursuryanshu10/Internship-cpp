@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int i,n,x,p,q,r,f;
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        cin>>x;
+        cin>>p;
+        cin>>q;
+        r=p-q;
+        f=x*r;
+        cout<<f <<"\n";
+    }
+	return 0;
+}
